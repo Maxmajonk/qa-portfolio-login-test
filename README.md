@@ -1,17 +1,28 @@
-{\rtf1\ansi\ansicpg1251\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+# Login Testing Project
 
-\f0\fs24 \cf0 # Login Testing Project\
-\
-Contains test artifacts for login page:\
-- checklists\
-- testcases (positive, negative, validation, UI, access control)\
-- bug reports\
-- attachments (screenshots and HAR files)\
-\
-Environment: Chrome / macOS / Safari\
-}
+This repository contains all test artifacts for the login page.
+
+## Contents
+
+- **Checklists** – test execution checklists (`checklist-login.pdf`)
+- **Test Cases** – organized by type:
+  - Positive scenarios (`testcases-login-positive.pdf`)
+  - Negative scenarios (`testcases-login-negative.pdf`)
+  - Input validation (`testcases-login-input-validation.pdf`)
+  - UI (`testcases-login-ui.pdf`)
+  - Access control (`testcases-login-access-control.pdf`)
+- **Bug Reports** – documented bugs found during testing (`bugs-login.pdf`)
+- **Attachments** – screenshots and HAR files for each test case
+
+## Environment
+
+- Browsers: Chrome, Safari
+- OS: macOS
+- Notes: staging and production environments used as appropriate
+
+## How to Use
+
+1. Review checklists to understand which tests were executed.
+2. Refer to test cases for detailed steps, expected vs actual results.
+3. Examine bug reports if any discrepancies or issues are observed.
+4. Use attachments for visual verification or reproducing issues.
